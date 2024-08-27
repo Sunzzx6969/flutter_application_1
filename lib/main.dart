@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Text.dart';
 import 'package:flutter_application_1/dialog.dart';
 import 'package:flutter_application_1/image_Widget.dart';
 import 'package:flutter_application_1/scaffold.widget.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ScaffoldWidget(),
+      home: TextInput(),
     );
   }
 }
